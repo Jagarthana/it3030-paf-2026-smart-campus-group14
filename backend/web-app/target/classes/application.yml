@@ -1,0 +1,43 @@
+spring:
+  application:
+    name: smartcampus-hub
+  datasource:
+    url: jdbc:h2:mem:smartcampus;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    username: sa
+    password: password
+    driver-class-name: org.h2.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+    database-platform: org.hibernate.dialect.H2Dialect
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+
+  servlet:
+    multipart:
+      max-file-size: 5MB
+      max-request-size: 12MB
+
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: "756973821142-4rh48laki92dfsk6qu75lhbf8bcl153q.apps.googleusercontent.com"
+            client-secret: "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"
+            scope: profile, email
+
+server:
+  port: 8081
+
+app:
+  upload:
+    dir: uploads
+  frontend:
+    base-url: http://localhost:5173
