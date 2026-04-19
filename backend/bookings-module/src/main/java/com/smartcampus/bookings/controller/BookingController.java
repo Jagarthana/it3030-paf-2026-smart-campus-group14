@@ -1,5 +1,5 @@
 package com.smartcampus.bookings.controller;
-
+//booking Controller
 import com.smartcampus.bookings.model.Booking;
 import com.smartcampus.bookings.model.BookingStatus;
 import com.smartcampus.bookings.repository.BookingRepository;
