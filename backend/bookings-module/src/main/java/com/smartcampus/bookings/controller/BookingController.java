@@ -1,5 +1,5 @@
 package com.smartcampus.bookings.controller;
-//booking Controller
+//Bookings Controller
 import com.smartcampus.bookings.model.Booking;
 import com.smartcampus.bookings.model.BookingStatus;
 import com.smartcampus.bookings.repository.BookingRepository;
@@ -17,7 +17,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/bookings")
 public class BookingController {
-
+g
     @Autowired
     private BookingService bookingService;
 

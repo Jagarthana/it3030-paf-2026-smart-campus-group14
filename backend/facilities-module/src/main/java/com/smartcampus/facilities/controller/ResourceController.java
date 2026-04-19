@@ -1,5 +1,5 @@
 package com.smartcampus.facilities.controller;
-
+//Resource Controller
 import com.smartcampus.facilities.model.Resource;
 import com.smartcampus.facilities.model.ResourceType;
 import com.smartcampus.facilities.repository.ResourceRepository;
