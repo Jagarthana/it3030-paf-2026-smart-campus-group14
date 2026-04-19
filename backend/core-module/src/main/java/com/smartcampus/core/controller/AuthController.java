@@ -1,5 +1,5 @@
 package com.smartcampus.core.controller;
-
+//Auth Controller
 import com.smartcampus.core.model.Role;
 import com.smartcampus.core.model.User;
 import com.smartcampus.core.repository.UserRepository;
